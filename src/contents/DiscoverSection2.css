@@ -1,0 +1,32 @@
+.lookup {
+    width: 100%;
+    height: 1500px;
+    background-repeat: no-repeat;
+
+    /* background-size: cover; */
+    background-position: 500% 0%;
+    background-size: 95% 100%;
+    background-color: #f7f7f7;
+}
+.lookup h3 {
+    font-family: "Noto Sans KR";
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 220px;
+}
+.lookup h4 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.lookup h4 p {
+    font-family: "Noto Sans KR";
+    width: 492px;
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #5a5a5b;
+}

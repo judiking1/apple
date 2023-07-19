@@ -1,0 +1,67 @@
+/* Header*/
+#header{
+    background-color: rgba(240, 240, 240, 0.95);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* 상단 GNB 메뉴 */
+#header nav{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#header .gnb{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .logo img{
+    width: 115px;
+    height: 44px;
+    margin-top: -4px;
+    margin-right: 4px;
+    /* 400/1425 = 0.2807017543859649 */
+    margin-right: 0.2807017543859649vw;
+}
+#header .logo a{
+    display: inline-block;
+    font-size: 14px;
+    /* 1400/768 = 1.8229166666666667 */
+    font-size: 1.8229166666666667vh;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    font-weight: 400;
+}
+#header .gnb li a{
+    color: #222;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    font-weight: 300;
+}
+#header .gnb li a:hover{
+    color: #111;
+}
+#header .gnb li:nth-child(3) a:hover, #header .gnb li:nth-child(5) a:hover {
+    color: #06f;
+}
+#header .gnb li:nth-child(3) a::after, #header .gnb li:nth-child(5) a::after {
+    content: "\f0a5";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    margin-left: 8px;
+    color: #06f;
+}
+
+/* https://codepen.io/sosuke/pen/Pjoqqp = filter값 얻기 */
+/* target color에 바꾸고싶은 색 넣고 compute filter */
+.svg,
+.search{
+    width: 14px;
+    filter: invert(6%) sepia(14%) saturate(266%) hue-rotate(322deg) brightness(86%) contrast(82%);
+}
+.svg:hover,
+.search:hover{
+    filter: invert(0%) sepia(95%) saturate(21%) hue-rotate(16deg) brightness(95%) contrast(105%);
+}

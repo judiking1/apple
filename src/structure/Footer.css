@@ -1,0 +1,21 @@
+/* Footer */
+#footer{
+    font-size: 12px;
+    line-height: 1.3334;
+    font-weight: 400;
+    background-color: #f5f5f7;
+    color: #515154;
+    min-width: 1024px;
+    /* 102400/1425 = 71.85964912280701 */
+    min-width: 71.85964912280701vw;
+    padding-top: 25px;
+    /* 2500/768 = 3.2552083333333335 */
+    padding-top: 3.2552083333333335vh;
+}
+#footer .footer_content{
+    width: 1024px;
+    padding: 0 22px;
+    /* 2200/1425 = 1.543859649122807 */
+    padding: 0 1.543859649122807vw;
+    margin: 0 auto;
+}

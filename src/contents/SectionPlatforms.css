@@ -1,0 +1,48 @@
+/* Section 02 */
+.platforms{
+    max-width: 100%;
+    background: linear-gradient(#2E3E58 0%, #21283C 100%);
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.platforms h3{
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.115;
+    font-weight: 700;
+    /* (25/768)*100 = 3.2552083333333335 */
+    margin-bottom: 8px;
+}
+.platforms h4 {
+    width: 770px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+.platforms .links{
+    width: 720px;
+    margin: 0 auto;
+    /* 플렉스 */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.platforms .links a{
+    width: 120px;
+    /* 플렉스 */
+    display: flex;
+    flex-direction: column;
+}
+.platforms .links a p {
+    width: 120px;
+}
+.platforms .links a p img {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 8px;
+}

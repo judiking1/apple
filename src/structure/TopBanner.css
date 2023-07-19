@@ -1,0 +1,23 @@
+/* Top Banner */
+.top_banner{
+    height: 54px;
+    background-color: #0071e3;
+    text-align: center;
+    line-height: 54px;
+}
+.top_banner h4::after{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 10px;
+    color: #fff;
+    padding-left: 5px;
+    /* (5/1425)*100 = 0.3508771929824561 */
+    padding-left: 0.3508771929824561vw;
+    display: inline-block;
+}
+.top_banner h4 a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}

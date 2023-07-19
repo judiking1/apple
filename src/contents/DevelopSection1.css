@@ -1,0 +1,39 @@
+.platforms_three{
+    max-width: 100%;
+    background: #474747;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.platforms_three .links{
+    width: 700px;
+    margin: 0 auto;
+    /* 플렉스 */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.platforms_three .links a{
+    width: 84px;
+    /* 플렉스 */
+    display: flex;
+    flex-direction: column;   
+}
+.platforms_three .links a:hover p {
+    color: #4899f0;
+}
+.platforms_three .links a p {
+    font-size: 11px;
+}
+.platforms_three .links a p img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+.platforms_three .links a:nth-child(2) p img {
+    transform: translateY(8px);
+}
+.platforms_three .links a:nth-child(4) p img {
+    transform: translateY(4px);
+
+}

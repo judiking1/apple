@@ -1,0 +1,53 @@
+.platforms_four{
+    max-width: 100%;
+    background: #489e9f;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.platforms_four h3{
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.115;
+    font-weight: 700;
+    /* (25/768)*100 = 3.2552083333333335 */
+    margin-bottom: 20px;
+}
+.platforms_four h4 {
+    width: 770px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+.platforms_four h5 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+.platforms_four .links{
+    width: 800px;
+    margin: 0 auto;
+    /* 플렉스 */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.platforms_four .links a{
+    width: 120px;
+    /* 플렉스 */
+    display: flex;
+    flex-direction: column;
+}
+.platforms_four .links a p {
+    width: 120px;
+}
+.platforms_four .links a p img {
+    width: 54px;
+    height: 54px;
+}

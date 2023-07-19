@@ -1,0 +1,74 @@
+/* Aside */
+.aside{
+    background-color: #f5f5f7;
+    padding: 25px 0;
+    /* 2500/768 = 3.2552083333333335 */
+    padding: 3.2552083333333335vh 0;
+    margin-top: 12px;
+}
+.aside .section_content{
+    width: 980px;
+    margin: 0 auto;
+    color: #1d1d1f;
+    font-size: 17px;
+    /* 플렉스 */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.aside .section_content div{
+    text-align: center;
+}
+.aside .section_content div figure{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 4px auto 20px;
+
+}
+.aside .section_content div:nth-child(2) figure{width: 41px;}
+.aside .section_content div:nth-child(4) figure{width: 48px; height: 38px; margin-bottom: 32px;}
+
+.aside .section_content div p{
+    font-family: "MyLotteBold", sans-serif;
+    width: 216px;
+    color: #1d1d1f;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    /* 2500/768 = 3.2552083333333335 */
+    line-height: 3.2552083333333335vh;
+}
+.aside .section_content div p:nth-last-child(2),
+.aside .section_content div p:last-child{
+    height: 44px;
+    font-family: "dohyeon", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+    letter-spacing: -0.07em;
+    line-height: 24px;
+}
+.aside .section_content div p:last-child{
+    font-size: 11px;
+    color: #06c;
+    margin-top: 12px;
+    /* 1200/768 = 1.5625 */
+    margin-top: 1.5625vh;
+}
+.aside .section_content div p:last-child:hover{
+    text-decoration-line: underline;
+}
+.aside .section_content div span::after{
+    content: ">";
+    font-weight: 500;
+    font-size: 8px;
+    /* 1300/768 = 1.6927083333333333 */
+    font-size: 1.6927083333333333vh;
+    color: #06c;
+    padding-left: 5px;
+    /* 500/1425 = 0.3508771929824561 */
+    padding-left: 0.3508771929824561vw;
+    display: inline-block;
+}

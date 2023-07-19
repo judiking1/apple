@@ -1,0 +1,26 @@
+/* Section 04 */
+.member {
+    /* height: 360px; */
+    background: linear-gradient(170deg, #BF46A4,#7F2EAF, #341D8C);
+    text-align: center;
+    padding: 64px 0;
+    font-size: 36px;
+    color: #fff;
+}
+.member_980 img{
+    width: 150px;
+    height: 76px;
+    margin-bottom: 28px;
+}
+.member_980 h3 {
+    width: 460px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.member_980 h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}

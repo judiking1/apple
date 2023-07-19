@@ -1,0 +1,55 @@
+/* Section 03 */
+.banner{
+    height: 572px;
+    background: linear-gradient(#00172B 0% , #0F72C4 100%);
+    margin-bottom: 12px;
+    /* 1200/768 = 1.5625 */
+    margin-bottom: 1.5625vh;
+}
+
+.banner .section_content{
+    width: 980px;
+    /* 98000/1425 = 68.7719298245614 */
+    width: 68.7719298245614vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.banner .section_content div{
+    width: 511px;
+    margin: 0 auto;
+    padding: 36px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.banner .section_content div h3,
+.banner .section_content div h5{
+    font-size: 28px;
+    /* 3200/768 = 4.166666666666667 */
+    color: #f5f5f7;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.banner .section_content div h3 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+.banner .section_content div h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    margin-top: 10px;
+}
+.banner figure{
+    height: 376px;
+    /* 37600/768 = 48.958333333333336 */
+    height: 48.958333333333336vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: -50px;
+    /* 5000/768 = 6.510416666666667 */
+    margin-top: -6.510416666666667vh;
+}
