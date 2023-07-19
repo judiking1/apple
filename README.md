@@ -8,3 +8,5 @@
 <p>구현 페이지는 메인(Home)과 둘러보기(Discover), 개발(Develop) 입니다.</p>
 
 <p>홈페이지 보러가기 : <a href="https://judiking1.cafe24.com/apple"></a>https://judiking1.cafe24.com/apple</p>
+
+
